@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Realtime Facial Recognition</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body background="family_background.jpg">
+        <center>
+         <div class="heading">
+             Realtime Facial Recognition
+             <hr>
+             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 heading_div">
+             Model is trained on
+             <br>
+             <div class="btn btn-danger heading_div2">
+              Navya(Me)|Mother|Father|Grand-mother
+             </div>
+             </div>
+         </div>
+
+         <p class="btn btn-danger result_para">
+             Object: 
+             <span id="result_name"></span>
+         </p>
+         <br>
+         <p class="btn btn-danger result_para">
+            Accuracy: 
+            <span id="result_accuracy"></span>
+        </p>
+
+        <div class="copy_right_footer">
+            Developed by- Navya Gupta
+          </div>
+        </center>
+
+        <script src="main.js"></script>
+    </body>
+</html>
